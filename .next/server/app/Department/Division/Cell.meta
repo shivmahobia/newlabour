@@ -1,0 +1,7 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(All Pages)/layout,_N_T_/(All Pages)/Department/layout,_N_T_/(All Pages)/Department/Division/layout,_N_T_/(All Pages)/Department/Division/Cell/layout,_N_T_/(All Pages)/Department/Division/Cell/page,_N_T_/Department/Division/Cell"
+  }
+}

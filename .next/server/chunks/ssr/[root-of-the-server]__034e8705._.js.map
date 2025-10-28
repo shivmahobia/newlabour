@@ -1,0 +1,1 @@
+{"version":3,"sources":["turbopack:///[project]/app/(All Pages)/Resources/Publications/page.tsx"],"sourcesContent":["import React from \"react\";\n\nconst Publications = () => {\n  return <div>Publications</div>;\n};\n\nexport default Publications;\n"],"names":[],"mappings":"wRAEqB,IACZ,CAAA,EAAA,EAAA,GAAA,EAAC,MAAA,UAAI,CAGC"}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["turbopack:///[project]/app/(All Pages)/Resources/Policies/page.tsx"],"sourcesContent":["import React from \"react\";\n\nconst Policies = () => {\n  return <div>Policies</div>;\n};\n\nexport default Policies;\n"],"names":[],"mappings":"wRAEiB,IACR,CAAA,EAAA,EAAA,GAAA,EAAC,MAAA,UAAI,CAGC"}

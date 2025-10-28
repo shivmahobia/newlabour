@@ -1,0 +1,1 @@
+{"version":3,"sources":["turbopack:///[project]/app/(All Pages)/About/Feedback/page.tsx"],"sourcesContent":["import React from \"react\";\n\nconst Feedback = () => {\n  return <div>Feedback</div>;\n};\n\nexport default Feedback;\n"],"names":[],"mappings":"uRAEiB,IACR,CAAA,EAAA,EAAA,GAAA,EAAC,MAAA,UAAI,CAGC"}

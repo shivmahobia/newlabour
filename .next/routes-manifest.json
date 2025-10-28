@@ -1,0 +1,173 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/About/Feedback",
+      "regex": "^/About/Feedback(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/About/Feedback(?:/)?$"
+    },
+    {
+      "page": "/About/MissionVision",
+      "regex": "^/About/MissionVision(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/About/MissionVision(?:/)?$"
+    },
+    {
+      "page": "/About/Organization",
+      "regex": "^/About/Organization(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/About/Organization(?:/)?$"
+    },
+    {
+      "page": "/About/WhoisWho",
+      "regex": "^/About/WhoisWho(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/About/WhoisWho(?:/)?$"
+    },
+    {
+      "page": "/CessLogin",
+      "regex": "^/CessLogin(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/CessLogin(?:/)?$"
+    },
+    {
+      "page": "/ContactUs",
+      "regex": "^/ContactUs(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/ContactUs(?:/)?$"
+    },
+    {
+      "page": "/Department/Division/Cell",
+      "regex": "^/Department/Division/Cell(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Department/Division/Cell(?:/)?$"
+    },
+    {
+      "page": "/EodbServices",
+      "regex": "^/EodbServices(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/EodbServices(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/Grievances/ComplaintStatus",
+      "regex": "^/Grievances/ComplaintStatus(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Grievances/ComplaintStatus(?:/)?$"
+    },
+    {
+      "page": "/Grievances/OnlineComplaint",
+      "regex": "^/Grievances/OnlineComplaint(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Grievances/OnlineComplaint(?:/)?$"
+    },
+    {
+      "page": "/HelpSupport/UpdateEvents",
+      "regex": "^/HelpSupport/UpdateEvents(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/HelpSupport/UpdateEvents(?:/)?$"
+    },
+    {
+      "page": "/Login",
+      "regex": "^/Login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Login(?:/)?$"
+    },
+    {
+      "page": "/Media/Gallery",
+      "regex": "^/Media/Gallery(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Media/Gallery(?:/)?$"
+    },
+    {
+      "page": "/Reports",
+      "regex": "^/Reports(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Reports(?:/)?$"
+    },
+    {
+      "page": "/Resources/ActRule",
+      "regex": "^/Resources/ActRule(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Resources/ActRule(?:/)?$"
+    },
+    {
+      "page": "/Resources/Policies",
+      "regex": "^/Resources/Policies(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Resources/Policies(?:/)?$"
+    },
+    {
+      "page": "/Resources/Publications",
+      "regex": "^/Resources/Publications(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Resources/Publications(?:/)?$"
+    },
+    {
+      "page": "/Resources/Reports",
+      "regex": "^/Resources/Reports(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Resources/Reports(?:/)?$"
+    },
+    {
+      "page": "/Resources/Schemes",
+      "regex": "^/Resources/Schemes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Resources/Schemes(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

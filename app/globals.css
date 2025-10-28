@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800&display=swap");
+@import "tailwindcss";
+
+:root {
+  --background: #f6f6f6;
+  --foreground: #171717;
+
+  /* Branding Colors */
+  --color-primary: #00487c;
+  --color-primary-light: #ffffff;
+  --color-primary-dark: #091f2e;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--color-primary);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@layer utilities {
+  .hover-bg-gradient {
+    transition: background 0.3s ease;
+  }
+  .hover-bg-gradient:hover {
+    background: linear-gradient(360deg, rgba(97, 58, 245, 0.1) 0%, rgba(97, 58, 245, 0) 100%);
+  }
+}
+
+/* Primary color text */
+.text-primary {
+  color: var(--color-primary) !important; /* #0c324d */
+}
+
+/* Truncate text with ellipsis */
+.truncate {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: calc(100% - 24px); /* leave space for dropdown arrow icon */
+  display: inline-block;
+  vertical-align: middle;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+/* === Enhanced Custom styles for Ant Design Dropdown === */
+
+.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item-selected {
+  color: #0c324d;
+  background-color: #e6f4ff;
+  font-weight: 500;
+}
+
+/* Dropdown button */
+.ant-btn.custom-dropdown-btn {
+  background-color: #ffffff !important;
+  color: #64748b !important;
+  border-radius: 4px !important;
+  border: 1.5px solid #cbd5e1 !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  padding: 0 16px !important;
+  width: 400px !important;
+  height: 44px !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 991px) and (min-width: 768px) {
+  .ant-btn.custom-dropdown-btn {
+    max-width: 356px !important; /* Adjust width for medium devices */
+  }
+}
+
+/* Small devices (mobile phones, less than 768px) */
+@media (max-width: 767px) {
+  .ant-btn.custom-dropdown-btn {
+    max-width: 300px !important; /* Optional max width */
+  }
+}
+/* Hover effect for button */
+.ant-btn.custom-dropdown-btn:hover {
+  background-color: #f8fafc !important;
+  color: #475569 !important;
+  border-color: #94a3b8 !important;
+  box-shadow: 0 2px 6px rgba(0, 72, 124, 0.15) !important;
+}
+
+/* Active/Focus state for button */
+.ant-btn.custom-dropdown-btn:focus,
+.ant-btn.custom-dropdown-btn:active {
+  background-color: #ffffff !important;
+  color: #00487c !important;
+  border-color: #00487c !important;
+}
+
+/* Dropdown when open */
+.ant-dropdown-open .custom-dropdown-btn {
+  color: #00487c !important;
+  border-color: #00487c !important;
+  background-color: #f0f9ff !important;
+}
+
+/* Dropdown menu container */
+.ant-dropdown-menu.custom-dropdown-menu {
+  border-radius: 4px !important;
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%) !important;
+  box-shadow: 0 10px 25px rgba(0, 72, 124, 0.15), 0 5px 10px rgba(0, 0, 0, 0.05) !important;
+  padding: 8px 4px !important;
+  border: 1px solid #e2e8f0 !important;
+  width: 300px !important;
+  backdrop-filter: blur(10px);
+}
+/* Dropdown menu container */
+.ant-dropdown-menu.custom-dropdown-menu {
+  width: 400px !important; /* Match base width of the button */
+  /* ... rest of your existing styles ... */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 991px) and (min-width: 768px) {
+  .ant-dropdown-menu.custom-dropdown-menu {
+    width: 356px !important; /* Match button's max-width */
+  }
+}
+
+/* Small devices (mobile phones, less than 768px) */
+@media (max-width: 767px) {
+  .ant-dropdown-menu.custom-dropdown-menu {
+    width: 300px !important; /* Match button's max-width */
+  }
+}
