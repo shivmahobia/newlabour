@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="px-4 sm:px-8 md:px-16 lg:px-20 mx-auto py-10 flex flex-col lg:flex-row justify-between items-start gap-8 lg:gap-10 border-t border-gray-200 max-w-screen-3xl">
         {/* Left Section */}
         <div className="flex flex-col items-center sm:items-start gap-4 w-full lg:w-2/5 xl:w-3/5 text-center sm:text-left">
-          <Image src="/Header/Cg-logo.svg" alt="Chhattisgarh Govt Logo" width={80} height={80} className="object-contain sm:w-[113px] sm:h-[113px]" />
+          <Image src="/Header/Cg-Logo.svg" alt="Chhattisgarh Govt Logo" width={80} height={80} className="object-contain sm:w-[113px] sm:h-[113px]" />
           <div className="font-semibold text-black uppercase text-md leading-tight max-w-xs sm:whitespace-nowrap sm:text-lg">LABOUR DEPARTMENT, GOVERNMENT OF CHHATTISGARH</div>
           <div className="grid grid-cols-3 sm:grid-cols-4 gap-3 w-max">
             <a href="#" aria-label="Facebook" className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-200 hover:bg-primary-500 hover:text-primary transition-colors">
